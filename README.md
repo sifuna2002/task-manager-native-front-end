@@ -17,7 +17,7 @@
 
 ## Preview
 
-![Screenshot](image.jpg)
+![Screenshot](image.png)
 
 
 ## 🚀 How to use
