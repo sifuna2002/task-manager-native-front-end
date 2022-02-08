@@ -12,6 +12,10 @@ export default function App() {
     		</View>
 
     	</View>
+    	<TouchableOpacity style={styles.float}>
+    		<View style={styles.horizontal}></View>
+    		<View style={styles.vertical}></View>
+    	</TouchableOpacity>
     </View>
   );
 }
@@ -33,5 +37,34 @@ const styles=StyleSheet.create({
 	},
 	tasks:{
 		marginTop:30,
+	},
+	float:{
+		borderWidth:1,
+		borderColor:'#55bcf6',
+		alignItems:'center',
+		justifyContent:'center',
+		width:70,
+		position:'absolute',
+		bottom:10,
+		right:10,
+		height:70,
+		backgroundColor:'#55bcf6',
+		borderRadius:100,
+	},
+	horizontal:{
+		position:'absolute',
+		backgroundColor:'#ffffff',
+		width:'50%',
+		height:'12.5%',
+		left:'25%',
+		top:'43.75%',
+	},
+	vertical:{
+		position:'absolute',
+		backgroundColor:'#ffffff',
+		width:'12.5%',
+		height:'50%',
+		left:'43.75%',
+		top:'25.5%',
 	},
 });
